@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neil Christian Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d22cfefb35.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="WEBSITE/PLOGOP.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">About Me</a> </li>
+                <li><a href="#services">Services</a> </li>
+                <li><a href="#portfolio">Portfoio</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Video Editor/Graphic Designer</p>
+            <h1>Hi, I'm <span>Neil Christian</span><br>From Philippines</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="WEBSITE/PABOUTME.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Greetings, I'm Neil Christian Sawal. With 2 years of experience in video editing and graphic design, I bring a blend 
+                    of creativity and technical proficiency to every project. Proficient in Adobe Premiere Pro and Adobe Photoshop, I excel 
+                    in crafting compelling visual narratives, enhancing brand identity through captivating graphics, and optimizing content 
+                    for various platforms. Collaborative by nature, I thrive in bringing concepts to life while meeting deadlines and exceeding 
+                    expectations. Let's collaborate to transform your vision into captivating visuals.
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>ADOBE PREMIERE PRO</span><br>Proficient in Adobe Premiere Pro, I excel in advanced editing techniques, transitions, color correction, audio manipulation, titling, motion graphics, and problem-solving.</li>
+                        <li><span>ADOBE PHOTOSHOP</span><br>Skilled in Adobe Photoshop, I've honed expertise in photo editing, retouching, compositing, color correction, graphic design, and adept problem-solving.</li>
+                        <li><span>ADOBE AFTER EFFECTS</span><br>I possess advanced skills in Adobe After Effects, focusing on managing motion graphics, visual effects, animation, masking, color correction, tracking, scripting, audio integration, project organization, problem-solving, and ongoing professional development.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience"> 
+                    <ul>
+                        <li><span>VIDEO EDITOR</span><br>Experienced in video editing for Empyre Apparel Co. and Vivid Smile, my focus is on creating captivating visuals that bring brands to life. Crafting dynamic promotions and engaging social media content, my polished videos resonate with our audience, surpassing expectations and reflecting our unique brand essence.</li>
+                        <li><span>GHRAPHIC DESIGNER</span><br>As a seasoned graphic designer at Vivid Smile, I specialize in producing visually captivating designs that elevate brand identities. Through meticulous attention to detail and a dedication to creativity, I consistently deliver work that effectively communicates each brand's distinctive message to its target audience.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------services----------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>Social Media Content, Tiktok Content, Short Form Videos, Long Form Videos, Ecommerce, Dropshipping Ads, Real Estate</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Graphic Designing</h2>
+                <p>Thumbnail, Banner, Background Design, Ecommerce Listing Images, Facebook Ads, Instagram Ads, Social Media Ads, Ecommerce Platform Images
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>Custom Website Design, Responsive Design, User Experience (UX) Design, User Interface (UI) Design</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------portfolio-------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="WEBSITE/WORK.png">
+                <div class="layer">
+                    <h3>Video Edit</h3>
+                    <p>Here are some sample works that I've prepared for your review.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="WEBSITE/WORK.png">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>Here are some sample works that I've prepared for your review.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="WEBSITE/WORK.png">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>Here are some sample works that I've prepared for your review.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------------contact-------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> neilchristian111@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +63 961 342 6075</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/nongkiiii"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/narcissist.neil/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@_nongkii"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="WEBSITE/Neil Christian Sawal_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Neil. Made with <i class="fa-solid fa-heart"></i> by Easy Toturials</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby7MwLjPusQupcpV5P5mLn_NBQ6-8Uv1IIiTCByrz_hAbpMpWN3SZt6jpulSxpm9rbkHA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
